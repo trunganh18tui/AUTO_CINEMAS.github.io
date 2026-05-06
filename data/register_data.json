@@ -1,0 +1,38 @@
+[
+  {
+    "tc_id": "TC-01",
+    "description": "Đăng ký thành công - Dữ liệu hợp lệ",
+    "name": "Người dùng POM 01",
+    "email": "auto",
+    "pass": "Security123!",
+    "confirm_pass": "Security123!",
+    "birth": "20/10/1995",
+    "phone_prefix": "0912",
+    "agree": true,
+    "expected_result": "Đăng ký tài khoản thành công"
+  },
+  {
+    "tc_id": "TC-05",
+    "description": "Lỗi - Email sai định dạng",
+    "name": "Gemini Tester",
+    "email": "email_khong_hop_le",
+    "pass": "Security123!",
+    "confirm_pass": "Security123!",
+    "birth": "01/01/2000",
+    "phone_prefix": "0988",
+    "agree": true,
+    "expected_result": "Email không đúng định dạng"
+  },
+  {
+    "tc_id": "TC-09",
+    "description": "Lỗi - Mật khẩu xác nhận không khớp",
+    "name": "Gemini Tester",
+    "email": "auto",
+    "pass": "Security123!",
+    "confirm_pass": "KhongGiongNhau123",
+    "birth": "01/01/2000",
+    "phone_prefix": "0977",
+    "agree": true,
+    "expected_result": "Mật khẩu xác nhận không trùng khớp"
+  }
+]

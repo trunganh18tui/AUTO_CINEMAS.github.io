@@ -1,0 +1,37 @@
+[
+  {
+    "tc_id": "TC_DN01",
+    "description": "Đăng nhập thành công",
+    "email": "trunganhlvt1234@gmail.com",
+    "pass": "bangtan1234",
+    "expected_result": "Trang chủ"
+  },
+  {
+    "tc_id": "TC_DN02",
+    "description": "Để trống Email",
+    "email": "",
+    "pass": "Beta@123456",
+    "expected_result": "Vui lòng nhập Email hoặc Số điện thoại"
+  },
+  {
+    "tc_id": "TC_DN04",
+    "description": "Email sai định dạng",
+    "email": "nguyenvana_gmail.com",
+    "pass": "Beta@123456",
+    "expected_result": "Email không đúng định dạng"
+  },
+  {
+    "tc_id": "TC_DN05",
+    "description": "Sai mật khẩu",
+    "email": "nguyenvana@gmail.com",
+    "pass": "SaiMatKhau123",
+    "expected_result": "không chính xác"
+  },
+  {
+    "tc_id": "TC_DN07",
+    "description": "Tài khoản bị khóa",
+    "email": "userbikhoa@gmail.com",
+    "pass": "Beta@123456",
+    "expected_result": "tạm thời bị khóa"
+  }
+]

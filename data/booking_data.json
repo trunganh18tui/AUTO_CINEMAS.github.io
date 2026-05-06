@@ -1,0 +1,11 @@
+[
+  {
+    "tc_id": "TC_BOOKING_QR",
+    "description": "Đặt vé phim Shin - Chọn ghế E7 - Thanh toán Mã QR - Hủy",
+    "movie_name": "Phim Shin",
+    "showtime": "19:30",
+    "seat_name": "E7",
+    "payment_method": "Mã QR",
+    "expected_price": "50.000"
+  }
+]
